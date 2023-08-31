@@ -1,9 +1,7 @@
-Entity,EntityType
-TY22029,Product
-S100,Model
-$100,Model
-John Deere Turf-Gard�,Product
-John Deere Plus-4�,Product
-John Deere Plus-50�,Product
-John Deere,Organization
-ENGINE OIL,Product Type
+Entity1,Relationship,Entity2,Entity1_Type,Entity2_Type
+TY22029,can be used on,S100,Product,Model
+S100,is an,ENGINE OIL,Model,Product Type
+$100,can use,TY22029,Model,Product
+John Deere Turf-Gard�,is a preferred oil by,John Deere,Product,Organization
+John Deere Plus-4�,is a preferred oil by,John Deere,Product,Organization
+John Deere Plus-50�,is a preferred oil by,John Deere,Product,Organization
